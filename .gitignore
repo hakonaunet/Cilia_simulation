@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# But don't ignore these files...
+!.gitignore
+!Makefile
+!README.md
+!requirements.txt
+
+# ...and these directories (with all files inside)
+!src/**
+!include/**
+!cuda_src/**
+!file_output/**
+!output_files/**
+!pyplot/**
+
+# Explicitly ignore specific directories
+imgui/
+imgui-sfml/
+implot/
+SFML-2.6.1/
+build/
